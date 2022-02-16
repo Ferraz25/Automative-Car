@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Automative Car</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img id="logo" src="assets/car-logo.png" alt="Logo" />
+          <a href="#">Automative</a>
+        </div>
+
+        <ul>
+          <li><a href="#" class="home">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Price</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="appointment">Book My Car</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Your Card Repairs</h1>
+
+      <p>Visit us for your service</p>
+
+      <button id="open">Book My Car</button>
+
+      <div class="modal-container" id="modal-container">
+        <form action="">
+          <fieldset>
+            <legend>Fill in your data</legend>
+
+            <br />
+            <label for="name">Full name:</label>
+            <br />
+            <input type="text" id="name" placeholder="Your name" />
+            <br /><br />
+
+            <label for="adress">Adress:</label>
+            <br />
+            <input type="text" id="adress" placeholder="Your adress" />
+
+            <br /><br />
+
+            <label for="email">Email:</label>
+            <br />
+            <input type="email" id="email" placeholder="Your Email" />
+
+            <br /><br />
+
+            <label for="tel">Telephone:</label>
+            <br />
+            <input type="tel" id="tel" />
+
+            <br /><br />
+
+            <label for="car-model">Car Model:</label>
+            <br />
+            <select name="car-model" id="car-model">
+              <option value="">SUV</option>
+              <option value="">4x4</option>
+              <option value="">7 assentos</option>
+            </select>
+
+            <br /><br />
+
+            <label for="car-color">Car Color:</label>
+            <br />
+            <input type="color" name="car-color" id="car-color" />
+
+            <br /><br />
+
+            <label for="message">Message:</label>
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+
+            <br /><br />
+
+            <input type="checkbox" id="accept" />
+            <label for="accept">Aceito receber informações por email</label>
+
+            <br /><br />
+
+            <button type="submit" id="close">Enviar</button>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="content">
+        <div>
+          <strong>Our Location</strong>
+          <p>Brazil</p>
+        </div>
+
+        <div>
+          <strong>Phone</strong>
+          <p>(00)00000-0000</p>
+        </div>
+
+        <div>
+          <strong>E-mail</strong>
+          <p>dominio@email.com.br</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
